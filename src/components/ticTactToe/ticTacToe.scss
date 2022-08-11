@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #B55FEC;
+  height: 100vh;
+}
+
+.restart{
+  padding: 10px 25px;
+  background-color: green;
+  color: white;
+  font-size: 25px;
+  border-radius: 3rem;
+  border:none;
+
+}
+
+.winner-text{
+  font-size: 25px;
+
+}
+
+table {
+  width: 300px;
+  height: 300px;
+  background-color: cyan;
+  border: 1px solid #B55FEC;
+  tbody{
+
+
+    tr{
+      background-color: #B55FEC;
+
+      td {
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+      }
+    }
+
+    // & :not(tr:last-child){
+    //   border-bottom: 8px solid cyan;
+    // }
+    // & :not(td:first-child){
+    //   border-left: 8px solid cyan;
+    // }
+  }
+}
+
+.result-section{
+
+  .winners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+  }
+
+  .underline{
+    display: block;
+    width: 300px;
+    height: 2px;
+    background-color: black;
+  }
+
+  .result{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+
